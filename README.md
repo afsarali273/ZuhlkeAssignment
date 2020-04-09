@@ -28,3 +28,6 @@ Below Tests are covered:
 
 **Test Results**
 ![Test Results](https://github.com/afsarali273/ZuhlkeAssignment/blob/master/Zuhlke%20Assignment.png)
+
+**HTML Report**
+![HTML Results](https://github.com/afsarali273/ZuhlkeAssignment/blob/master/HTMLreport.png)
