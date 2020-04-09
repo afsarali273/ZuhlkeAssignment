@@ -31,7 +31,7 @@ public class SignUpAndSignIn {
 
     }
 
-    @Then("craete an account with random username")
+    @Then("create an account with random username")
     public void craete_an_account_with_random_username() throws Exception{
 
         pagefactory.getCreateNewAccoutPage().createAccountForNewUser();
@@ -44,7 +44,7 @@ public class SignUpAndSignIn {
         pagefactory.getSigninPage().verifySignInPage();
     }
 
-    @When("Login in using newly created credentials")
+    @When("Login using newly created credentials")
     public void login_in_using_newly_created_credentials() {
         pagefactory.getSigninPage().SignInExistingUser( pagefactory.getSigninPage().enterEmailaddress,"Password");
     }
